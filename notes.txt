@@ -1,0 +1,224 @@
+** Everything in python is object **
+** Every object contains set of methods **
+
+number
+-------
+number can be integer or octal or hexa or decimal.
+
+aval = 10
+bval = 34.43
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+
+aname = 'python programming'
+bname = "scala programming"
+cname = """unix"""
+
+
+
+list ( array in C)
+------
+list contains set of elements.
+Elements can be set of numbers OR strings OR any combination.
+
+alist = [10,20,30]
+blist = ["java","oracle"]
+clist = [34,56.545,"python"]
+
+
+
+
+tuple ( READ ONLY  , immutable )
+-----
+tuple contains set of elements.
+Elements can be set of numbers OR strings OR any combination.
+**** Elements inside tuple cannot be modified****
+
+atup = (45,43,32)
+btup = (4.3,444,"java")
+
+
+
+dictionary
+------------
+dictionary contains elements in key:value pairs.
+dictionary elements are defined in {}.
+In dictionary, keys are used to uniquely identify the value and it would be number or string
+               values can be either number or string or list or tuple or dictionary or set or any complex data 		              structure.
+
+
+syntax:    object = {key:value,key:value...}
+           book   = {"chap1":10 ,"chap2":20 ,"chap3":30 }
+           info   = {10:20,30:40,20:50}
+
+           data = {"chap1":["Raj","US",100] ,"chap2":["Rita","AUS",300]  }
+
+
+
+
+
+
+set
+----
+set is UNORDERED COLLECTION of UNIQUE elements of SAME type.
+
+
+aset = {10,20,30,30,30,30,20,10}
+
+
+
+
+mutable and immutable objects
+---------------------------
+
+
+mutable ( changable)
+---------------------
+list
+
+
+
+immutable ( unchangable )
+----------------------------
+string
+tuple
+
+
+
+
+
+
+
+
+
+
+level1
+level1
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+level1
+level1
+
+
+
+level1
+level1
+if cond:
+    level2
+    level2
+    level2
+else:
+    level2
+    level2
+level1
+
+
+
+How to display all the built-in functions ?
+
+In the console ..
+
+dir(__builtin__) : will display all the builtin exceptions and functions
+-------------------
+
+few frequently used functions
+print()
+range()
+type()
+dir()
+help()
+input()
+open()
+min()
+max()
+sum()
+isinstance()
+
+int()
+str()
+list()
+tuple()
+hex()
+oct()
+bin()
+dict()
+set()
+
+
+
+file handling
+----------------
+
+- working with flat files ( .txt .csv  .conf .log .rtf ..... )
+
+
+- working with third party files ( .mp4  .xlsx .docx  .pdf )
+
+
+
+working with flat files ( .txt .csv  .conf .log .rtf ..... )
+----------------------------------------------------------------
+
+
+
+opening the file
+------------------
+syntax:   object = open(filename,mode)
+example:    fread= open("customers.txt","r")
+
+
+
+
+
+closing the file
+------------------
+object.close()
+
+fread.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
